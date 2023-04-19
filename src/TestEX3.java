@@ -5,6 +5,11 @@ public class TestEX3 {
         QuickSort qs=new QuickSort(arrayFinal);
         System.out.println("MergeSort: ");
         MergeSort ms=new MergeSort(arrayFinal);
+        System.out.println("HeapSort: ");
+        HeapSort hs=new HeapSort(arrayFinal);
+        System.out.println("SelectionSort: ");
+        SelectionSort ss=new SelectionSort(arrayFinal);
+
     }
 
 
